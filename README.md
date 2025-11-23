@@ -2,7 +2,8 @@
 
 Este projeto implementa um **monitor cardíaco** usando o **ESP32 DevKit C V4**, permitindo acompanhar os batimentos em tempo real. As informações são exibidas em um **OLED 128x64** e alertas visuais e sonoros são acionados automaticamente conforme a frequência detectada. Além disso, os dados podem ser enviados via **MQTT** para monitoramento remoto em dashboards ou aplicativos.
 
-![Protótipo](imagens/prototipo.png)
+![Protótipo](https://github.com/matheusmoura-stack/Medidor-de-batimentos-OBJ-INT/blob/main/imagens/prototipo.png?raw=true)
+
 
 ---
 

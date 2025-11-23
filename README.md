@@ -1,4 +1,4 @@
-# 🫀 Monitor de Batimentos Cardíacos com ESP32
+# Monitor de Batimentos Cardíacos com ESP32
 
 Este projeto implementa um **monitor cardíaco** usando o **ESP32 DevKit C V4**, permitindo acompanhar os batimentos em tempo real. As informações são exibidas em um **OLED 128x64** e alertas visuais e sonoros são acionados automaticamente conforme a frequência detectada. Além disso, os dados podem ser enviados via **MQTT** para monitoramento remoto em dashboards ou aplicativos.
 
@@ -6,7 +6,7 @@ Este projeto implementa um **monitor cardíaco** usando o **ESP32 DevKit C V4**,
 
 ---
 
-## 🔧 Componentes do Projeto
+## Componentes do Projeto
 
 - **Microcontrolador:** ESP32 DevKit C V4  
 - **Sensor:** Pulse Sensor (conectado ao pino analógico 35)  
@@ -17,7 +17,7 @@ Este projeto implementa um **monitor cardíaco** usando o **ESP32 DevKit C V4**,
 
 ---
 
-## ⚙ Como Funciona
+## Como Funciona?
 
 1. **Captura do pulso:** o ESP32 lê continuamente o sinal analógico do sensor e converte em BPM (batimentos por minuto).  
 2. **Classificação da frequência cardíaca:**
@@ -33,26 +33,17 @@ Este projeto implementa um **monitor cardíaco** usando o **ESP32 DevKit C V4**,
 
 ---
 
-## 🧪 Resultados dos Testes
+## Resultados dos Testes
 
-- ✅ **Leitura do sensor:** valores consistentes e confiáveis de BPM  
-- ✅ **LED:** acende corretamente conforme o número do BPM  
-- ✅ **Buzzer:** alerta sonoro funciona para BPM fora do normal  
-- ✅ **Display OLED:** informações exibidas de forma clara e atualizadas em tempo real  
-- ✅ **MQTT:** conexão estável e envio correto dos dados para monitoramento remoto
-
----
-
-## 💡 Possíveis Expansões
-
-- Registrar histórico de BPM em banco de dados  
-- Criar dashboards ou aplicativos para visualização gráfica 📊  
-- Receber notificações no celular quando o BPM estiver fora da faixa ⚠️  
-- Monitoramento de múltiplos sensores simultaneamente
+- **Leitura do sensor:** valores consistentes e confiáveis de BPM  
+- **LED:** acende corretamente conforme o número do BPM  
+- **Buzzer:** alerta sonoro funciona para BPM fora do normal  
+- **Display OLED:** informações exibidas de forma clara e atualizadas em tempo real  
+- **MQTT:** conexão estável e envio correto dos dados para monitoramento remoto
 
 ---
 
-## 📚 Referências
+## Referências
 
 - [Biblioteca Adafruit SSD1306 para OLED](https://github.com/adafruit/Adafruit_SSD1306)  
 - [PubSubClient MQTT Library para Arduino](https://pubsubclient.knolleary.net/)  
